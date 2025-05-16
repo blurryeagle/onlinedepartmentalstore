@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* General Reset and Body Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Styles */
+.login-header {
+  width: 100%;
+  background-color: #375fc5;
+  padding: 15px 0;
+  text-align: center;
+  height: 80px; 
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+}
+
+.login-header .logo img {
+  height: 90%;
+  width: auto;   
+  max-height: 120px; 
+}
+
+/* Login Container */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 80px auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+/* Login Form */
+.login-form h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #375fc5;
+  margin-bottom: 20px;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+/* Submit Button */
+.login-form button {
+  padding: 12px;
+  background-color: #375fc5;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #4e77e0;
+}
+
+/* Alert Messages */
+.alert {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.alert-danger {
+  background-color: #f44336;
+  color: white;
+}
+
+.alert-success {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Sign-up Link */
+.signup-link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.signup-link a {
+  color: #375fc5;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 11.9px;
+  color: #666;
+}
+
+.footer a {
+  color: #375fc5;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header (Topbar) */
+.topbar {
+  width: 100%;
+  background-color: #375fc5;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.brand-logo img {
+    height: 100px;
+    width: 180px;
+    object-fit: contain;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: #cdddfb;
+}
+
+/* Form Container */
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 80px auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+.form-container h2 {
+  font-size: 24px;
+  color: #375fc5;
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.form-container input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-container input[type="submit"] {
+  padding: 12px;
+  width: 100%;
+  background-color: #375fc5;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #4e77e0;
+}
+
+/* Success and Error Message Styles */
+.alert {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12.5px;
+  margin-bottom: 15px;
+}
+
+.alert-danger {
+  background-color: #f44336;
+  color: white;
+}
+
+.alert-success {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  margin-top: auto;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
+
+.footer a {
+  color: #375fc5;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

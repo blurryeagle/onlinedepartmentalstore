@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header (Topbar) */
+.topbar {
+  width: 100%;
+  background-color: #375fc5;
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.brand-logo img {
+    height: 100px;
+    width: 180px;
+    object-fit: contain;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: #cdddfb;
+}
+
+.cart-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.cart-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cart-table th {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.cart-product-image {
+    width: 60px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.quantity-display {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.quantity-warning {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.cart-actions {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.checkout-btn {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.checkout-btn:hover {
+    background-color: #388e3c;
+}
+
+.remove-btn {
+    padding: 8px 16px;
+    background-color: #e53935;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.remove-btn:hover {
+    background-color: #c62828;
+}
+
+.grand-total-label {
+    text-align: right;
+    font-size: 16px;
+    color: #444;
+}
+
+.grand-total-amount {
+    text-align: left;
+    font-size: 18px;
+    color: #000;
+}
+
+/* Footer */
+.footer {
+  margin-top: auto;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
+
+.footer a {
+  color: #375fc5;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
